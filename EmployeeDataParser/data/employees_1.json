@@ -1,0 +1,16 @@
+{
+    "employees": [
+        {
+            "name": "Alice Brown",
+            "id": 3,
+            "department": "HR",
+            "salary": 60000
+        },
+        {
+            "name": "Bob White",
+            "id": 4,
+            "department": "Finance",
+            "salary": 80000
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+<employees>
+    <employee>
+        <name>John Doe</name>
+        <id>1</id>
+        <department>Engineering</department>
+        <salary>50000</salary>
+    </employee>
+    <employee>
+        <name>Jane Smith</name>
+        <id>2</id>
+        <department>Marketing</department>
+        <salary>70000</salary>
+    </employee>
+</employees>

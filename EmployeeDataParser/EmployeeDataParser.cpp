@@ -1,3 +1,4 @@
+#include "EmployeeDataParser.h"
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -13,12 +14,6 @@
 using json = nlohmann::json;
 using namespace std;
 
-struct Employee {
-    string name;
-    int id;
-    string department;
-    double salary;
-};
 
 // Function to parse XML file
 vector<Employee> parseXML(const string& filename) {
@@ -105,6 +100,7 @@ void displayResults(const vector<Employee>& employees) {
     }
 }
 
+#ifndef TEST_BUILD
 int main(int argc, char* argv[]) {
     if (argc < 3) {
         cerr << "Usage: " << argv[0] << " <XML file> <JSON file>" << endl;
@@ -124,3 +120,4 @@ int main(int argc, char* argv[]) {
     displayResults(employees);
     return 0;
 }
+#endif
