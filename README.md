@@ -66,7 +66,7 @@ This generates `libgtest.a`, required for linking during test compilation.
 ### 1. Compile and Run the Main Program
 Use `run.sh` to compile and execute the program with specific XML and JSON files:
 ```sh
-./run.sh employees.xml employees.json
+./run.sh
 ```
 
 ### 2. Compile and Run Unit Tests
